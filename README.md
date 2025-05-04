@@ -1,2 +1,2 @@
 # kamychine
-Twitch bot
+twitch bot for offline chat
