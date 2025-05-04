@@ -331,9 +331,11 @@ async fn handle_command (
             "-about" => {
                 bot.say(channel, &client, format!("random shit go! bot made in Rust 😲😲🚀🚀😲😲😲😲😲🚀🚀🚀🚀🚀")).await;
             }
+            "-repo" | "-source" | "-sourcecode" => {
+                bot.say(channel, &client, format!("https://github.com/kamythol/kamychine")).await;
+            }
             "-ping" => {
                 bot.say(channel, &client, format!("pong")).await;
-
             }
             "-chatting" => {
                 bot.say(channel, &client, format!("Chatting")).await;
